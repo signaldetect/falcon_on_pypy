@@ -5,7 +5,7 @@ The example of using `Python3` + `PyPy` + `Falcon` + `RethinkDB` based on the
 (https://impythonist.wordpress.com/2015/09/12/build-massively-scalable-restful-api-with-falcon-and-pypy/)
 article.
 
-## Installation
+## Installation within a Docker
 
 ```
 $ sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
@@ -36,7 +36,7 @@ $ cd falcon_on_pypy/
 $ sudo docker build -t <your username>/falcon_on_pypy .
 ```
 
-## Running
+## Running within a Docker
 
 Start the Docker container via
 `$ sudo docker run -p 49160:8888 -d <your username>/falcon_on_pypy` and then
