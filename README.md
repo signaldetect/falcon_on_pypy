@@ -31,6 +31,7 @@ $ sudo apt-get autoclean
 $ sudo apt-get install linux-image-extra-$(uname -r)
 $ sudo apt-get install docker-engine
 $ sudo service docker start
+$ git clone https://github.com/signaldetect/falcon_on_pypy.git
 $ cd falcon_on_pypy/
 $ sudo docker build -t <your username>/falcon_on_pypy .
 ```
